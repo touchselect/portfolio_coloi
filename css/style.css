@@ -47,6 +47,11 @@
 	text-decoration: none;
 }
 
+.nav ul li a img{
+	height: 15px;
+	background-color: #0c6f1e;
+}
+
 /* Banner Section */
 
 .banner{
@@ -93,14 +98,19 @@
 	margin: 4em auto;
 	overflow: auto;
 	position: relative;
+	text-align: center;
 }
 
 .team-header{
 	position: relative;
 	width: 70%;
-	text-align: center;
 	left: 16%;
 	margin-bottom: 4em;
+}
+
+.team-header h2{
+	font-size: 30px;
+	margin: 1em;
 }
 
 .members{
@@ -108,9 +118,40 @@
 	width: 24.25%;
 	margin-right: 1%;
 	margin-bottom: 1%;
-	text-align: center;
 }
 
 .members:nth-child(4){
 	margin-right: 0;
+}
+
+.members h3{
+	margin: 1em;
+}
+
+/* Services */
+
+.services{
+	width: 85%;
+	margin: 4em auto;
+	text-align: center;
+	position: relative;
+}
+
+.service-header{
+	position: relative;
+	width: 70%;
+	text-align: center;
+	left: 16%;
+	margin-bottom: 4em;
+}
+
+.service-contents{
+	margin: 0 auto;
+}
+
+.contents{
+	float: left;
+	width: 30%;
+	margin-right: 1%;
+	margin-bottom: 1%;
 }
